@@ -15,7 +15,7 @@
     <title>Entrar</title>
 
     <!-- Arquivos JS -->
-    <script src="js/validacao.js" defer></script>
+    <script src="js/autenticar.js" defer></script>
 </head>
 <body>
     <section>
@@ -25,16 +25,8 @@
         <!-- mensagem de error -->
         <div id="msgError"></div>
 
-        <!-- mensagem de sucesso -->
-        <div id="msgSucess"></div>
-
         <!-- formulário -->
         <form action="" class="login">
-            <!-- Nome -->
-            <div class="login-item">
-                <input type="text" name="nome" id="nome" required>
-                <label id="labelNome" for="nome" class="login-item-texto">Nome:</label>
-            </div>
 
             <!-- Usuário -->
             <div class="login-item">
@@ -51,7 +43,7 @@
 
             <!-- Botão de Login -->
             <div class="login-item item-button">
-                <input type="button" value="Cadastrar" id="cadastrar-btn" onclick='cadastrar()'>
+                <input type="button" value="Entrar" id="entrar-btn" onclick='entrar()'>
             </div>
         </form>
         <p>Não possui uma conta? <a href="https://3532everton.github.io/sistemadecadastro/">Cadastre-se</a></p>
